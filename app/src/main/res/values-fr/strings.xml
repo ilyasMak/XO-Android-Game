@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XO de ILYAS</string>
+    <string name="winnerMessage">Le gagnant est</string>
+
+    <string name="Breplay">Rejouer</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XO  إلياس</string>
+    <string name="winnerMessage">الفائز هو</string>
+    <string name="Breplay">إعادة اللعب</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:background="@drawable/xo"
+        android:padding="30sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:text="X"
+                android:textColor="#FF0000"
+
+                />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:textSize="50sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000CFF"
+                android:text="O" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TVwinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+           android:visibility="gone"
+            android:text="V"
+ />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/XO11"
+                style="@style/Button"
+                android:background="@drawable/buttonstyle"
+                android:text="" />
+
+            <Button
+                android:id="@+id/XO12"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text="" />
+
+            <Button
+                android:id="@+id/XO13"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/XO21"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+
+            <Button
+                android:id="@+id/XO22"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+
+            <Button
+                android:id="@+id/XO23"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/XO31"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+
+            <Button
+                android:id="@+id/XO32"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+
+            <Button
+                android:id="@+id/XO33"
+                style="@style/Button"
+
+                android:background="@drawable/buttonstyle"
+                android:text=""  />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Breplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="@drawable/buttonreplay"
+            android:text="@string/Breplay" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
